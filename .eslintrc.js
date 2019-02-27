@@ -15,7 +15,7 @@ module.exports = {
     'extends': [
       // Load default configuration for react
       'plugin:react/recommended',
-      // If you were to extend another popular 
+      // If you were to extend another popular
       // eslint config, you'd put it here
     ],
     // add your custom rules here

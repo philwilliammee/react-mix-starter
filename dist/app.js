@@ -24625,7 +24625,7 @@ react_dom__WEBPACK_IMPORTED_MODULE_0___default.a.render(react__WEBPACK_IMPORTED_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\react_projects\mix-starter\src\app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! C:\Users\psw58\Desktop\mySites\react_mix_starter\react-mix-starter\src\app.js */"./src/app.js");
 
 
 /***/ })
