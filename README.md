@@ -99,3 +99,6 @@ mix
   ~~~
 
 add .editorconfig, .gitattributes
+
+to install
+`source <(curl -s -L https://gist.githubusercontent.com/philwilliammee/5e5e8f06c8c5cd1dc820b74ef8187b88/raw/a76da1c2444f97f2a08297bf33bddc700c217459/rest_mix_starter_install.sh)`
