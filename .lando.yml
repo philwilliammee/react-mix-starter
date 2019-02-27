@@ -1,0 +1,4 @@
+name: mix-starter
+recipe: lamp
+config:
+  webroot: .
