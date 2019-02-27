@@ -16,6 +16,7 @@ module.exports = {
     // Load default configuration for react
     'plugin:react/recommended',
     // If you were to extend another popular
+    'google'
     // eslint config, you'd put it here
   ],
   // add your custom rules here
@@ -26,5 +27,7 @@ module.exports = {
     'no-unused-vars': 1,
     // jsx version of no-unused-vars
     'react/jsx-uses-vars': 1,
+    "indent": ["error", 2],
+    'max-len':["error", { "ignoreComments": true }]
   }
 }
