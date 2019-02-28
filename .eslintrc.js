@@ -3,7 +3,7 @@ module.exports = {
     'browser': true,
     'es6': true,
   },
-  'extends': 'google',
+  'extends': ["eslint:recommended", "plugin:react/recommended",'google'],
   'globals': {
     'Atomics': 'readonly',
     'SharedArrayBuffer': 'readonly',
