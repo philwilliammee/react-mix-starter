@@ -20,6 +20,10 @@ module.exports = {
     'react',
   ],
   'rules': {
-    'max-len':["error", { "ignoreComments": true }]
+    'max-len':["error", {
+      "ignoreComments": true,
+      "ignoreStrings": true,
+      "ignoreTemplateLiterals": true
+    }]
   },
 };
