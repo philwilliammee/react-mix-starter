@@ -3,7 +3,13 @@ module.exports = {
     'browser': true,
     'es6': true,
   },
-  'extends': ["eslint:recommended", "plugin:react/recommended",'google'],
+  'extends': [
+    "eslint:recommended", 
+    "plugin:react/recommended",
+    'google',
+    "prettier",
+    "prettier/react",
+  ],
   'globals': {
     'Atomics': 'readonly',
     'SharedArrayBuffer': 'readonly',
@@ -24,6 +30,8 @@ module.exports = {
       "ignoreComments": true,
       "ignoreStrings": true,
       "ignoreTemplateLiterals": true
-    }]
+    }],
+    'indent': [2, 4, {"SwitchCase": 1}],
+    'no-console': ["error", { allow: ["warn", "error"] }]
   },
 };
