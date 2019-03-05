@@ -3,7 +3,10 @@ module.exports = {
     'browser': true,
     'es6': true,
   },
-  'extends': 'google',
+  'extends': [
+    'google',
+    "plugin:jsx-a11y/recommended"
+  ],
   'globals': {
     'Atomics': 'readonly',
     'SharedArrayBuffer': 'readonly',
@@ -17,6 +20,7 @@ module.exports = {
   },
   'plugins': [
     'react',
+    'jsx-a11y'
   ],
   'rules': {
     'max-len':["error", { "ignoreComments": true }]
