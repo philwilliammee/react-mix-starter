@@ -21,7 +21,13 @@ class Example extends Component {
      *
      */
     render() {
-        return <div className="">{this.state.title}</div>;
+        return (
+            <div className="">{this.state.title}
+                <form>
+                    <input type='text'></input>
+                </form>
+            </div>
+        );
     }
 }
 

@@ -5,10 +5,9 @@ module.exports = {
   },
   'extends': [
     'google',
-    "plugin:jsx-a11y/recommended",
     "eslint:recommended",
     "plugin:react/recommended",
-    'google'
+    "plugin:jsx-a11y/recommended",
   ],
   'globals': {
     'Atomics': 'readonly',
@@ -30,9 +29,9 @@ module.exports = {
     'max-len':["error", {
       "ignoreComments": true,
       "ignoreStrings": true,
-      "ignoreTemplateLiterals": true
+      "ignoreTemplateLiterals": true,
     }],
     'indent': [2, 4, {"SwitchCase": 1}],
-    'no-console': ["error", { allow: ["warn", "error"] }]
+    'no-console': ["error", { allow: ["warn", "error"] }],
   },
 };

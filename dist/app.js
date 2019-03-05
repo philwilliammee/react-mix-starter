@@ -25574,7 +25574,9 @@ function (_Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: ""
-      }, this.state.title);
+      }, this.state.title, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "text"
+      })));
     }
   }]);
 
@@ -25595,7 +25597,7 @@ Example.propTypes = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! e:\react_projects\mix-starter\src\app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! c:\Users\psw58\Desktop\mySites\react_mix_starter\react-mix-starter\src\app.js */"./src/app.js");
 
 
 /***/ })
