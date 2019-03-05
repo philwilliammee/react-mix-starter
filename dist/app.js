@@ -25574,9 +25574,7 @@ function (_Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: ""
-      }, this.state.title, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-        type: "text"
-      })));
+      }, this.state.title, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "It worked!"));
     }
   }]);
 
