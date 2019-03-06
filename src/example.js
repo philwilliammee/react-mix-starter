@@ -6,8 +6,8 @@ import PropTypes from 'prop-types';
  */
 class Example extends Component {
     /**
-     * get the props
-     * @param {*} props
+     * set the title property
+     * @param {object} props
      */
     constructor(props) {
         super(props);
@@ -18,7 +18,6 @@ class Example extends Component {
     /**
      * render the component
      * @return {JSX} the hello world view
-     *
      */
     render() {
         return (

@@ -25548,8 +25548,8 @@ function (_Component) {
   _inherits(Example, _Component);
 
   /**
-   * get the props
-   * @param {*} props
+   * set the title property
+   * @param {object} props
    */
   function Example(props) {
     var _this;
@@ -25565,7 +25565,6 @@ function (_Component) {
   /**
    * render the component
    * @return {JSX} the hello world view
-   *
    */
 
 
