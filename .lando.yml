@@ -2,3 +2,14 @@ name: mix-starter
 recipe: lamp
 config:
   webroot: .
+# Add in phpmyadmin
+services:
+  node:
+    type: node
+    build:
+      - npm install npm@latest
+tooling:
+  npm:
+    service: node
+  node:
+    service: node
