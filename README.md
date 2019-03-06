@@ -89,7 +89,9 @@ add linter
 
 `npm install --save-dev babel-eslint babel-preset-react eslint eslint-friendly-formatter eslint-loader eslint-plugin-react`
 
-`touch eslintrc.js`
+initialize eslint
+
+`eslint --init`
 
 ~~~js
 // Pull in Laravel Mix
@@ -123,6 +125,4 @@ mix
   .react('src/app.js', 'dist/');
   ~~~
 
-add .editorconfig, .gitattributes
-
-maybe add eslint --init
+touch .editorconfig, .gitattributes
