@@ -1,4 +1,29 @@
-# setup laravel mix standalone project
+# React Mix Starter Project
+
+requirements:
+
+* [git](https://git-scm.com/downloads)
+* [nodejs](https://nodejs.org/en/download/)
+
+to build the react laravel-mix starter project run the following [bash install script](https://gist.github.com/philwilliammee/5e5e8f06c8c5cd1dc820b74ef8187b88)
+
+~~~bash
+source <(curl -s -L https://gist.githubusercontent.com/philwilliammee/5e5e8f06c8c5cd1dc820b74ef8187b88/raw/fea688d064ba7e999e853bc21671c53d9e31cf70/rest_mix_starter_install.sh)
+~~~
+
+then run
+
+~~~bash
+npm run watch
+~~~
+
+then start hacking!
+
+---
+
+## To build from scratch
+
+follow the process outlined below
 
 [Stand-Alone Project docs](https://laravel-mix.com/docs/4.0/installation), [additional info](https://myprogramming.blog/posts/setting-up-laravel-mix-for-a-react-project)
 
@@ -99,8 +124,5 @@ mix
   ~~~
 
 add .editorconfig, .gitattributes
-
-to install
-`source <(curl -s -L https://gist.githubusercontent.com/philwilliammee/5e5e8f06c8c5cd1dc820b74ef8187b88/raw/ed77ed502079145383e1ef1a2d86cf18306b39bd/rest_mix_starter_install.sh)`
 
 maybe add eslint --init
