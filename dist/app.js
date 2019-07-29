@@ -25505,6 +25505,17 @@ react_dom__WEBPACK_IMPORTED_MODULE_0___default.a.render(react__WEBPACK_IMPORTED_
 
 /***/ }),
 
+/***/ "./src/app.scss":
+/*!**********************!*\
+  !*** ./src/app.scss ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./src/example.js":
 /*!************************!*\
   !*** ./src/example.js ***!
@@ -25588,13 +25599,14 @@ Example.propTypes = {
 /***/ }),
 
 /***/ 0:
-/*!**************************!*\
-  !*** multi ./src/app.js ***!
-  \**************************/
+/*!*****************************************!*\
+  !*** multi ./src/app.js ./src/app.scss ***!
+  \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! c:\Users\psw58\Desktop\mySites\react_mix_starter\react-mix-starter\src\app.js */"./src/app.js");
+__webpack_require__(/*! c:\Users\psw58\Desktop\mySites\react_mix_starter\react-mix-starter\src\app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! c:\Users\psw58\Desktop\mySites\react_mix_starter\react-mix-starter\src\app.scss */"./src/app.scss");
 
 
 /***/ })

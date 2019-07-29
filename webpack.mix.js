@@ -7,26 +7,27 @@ mix
     .setPublicPath('./dist')
 // Add eslint to .jsx, .js and .vue files
     .webpackConfig({
-      module: {
-        rules: [
-          {
-            test: /\.(jsx|js|vue)$/,
-            loader: 'eslint-loader',
-            enforce: 'pre',
-            exclude: /(node_modules)/,
-            options: {
-              formatter: require('eslint-friendly-formatter'),
-            },
-          },
-        ],
-      },
+        module: {
+            rules: [
+                {
+                    test: /\.(jsx|js|vue)$/,
+                    loader: 'eslint-loader',
+                    enforce: 'pre',
+                    exclude: /(node_modules)/,
+                    options: {
+                        formatter: require('eslint-friendly-formatter'),
+                    },
+                },
+            ],
+        },
     })
 // This will copy files from static folder
 // directly into dist folder
     .copy('src/static', 'dist')
 // This will process our entry point (app.js)
 // into the dist/js folder
-    .react('src/app.js', 'dist');
+    .react('src/app.js', 'dist')
+    .sass('src/app.scss', 'dist');
 
 
 // Full API
